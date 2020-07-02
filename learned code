@@ -1,0 +1,30 @@
+import seaborn as sns
+import pandas as pd
+
+data.columns = ["" , ""] (change columns' name)(컬럼명 쉽게 바꾸기)
+
+sns.barplot(data = data, x = data.index , y = "", order = data.index) (order : sorting by data.index(x - axis))(data의 인덱스를 기준으로 정렬하여 barplot 시각화)
+
+
+(matplotlib default 사용할 것!)
+import matplotlib as mpl
+
+sns.set_style('whitegrid') #스타일은 원하는 것을 사용하세요.(그래프 스타일)
+
+mpl.rc('font', family='Nanum Gothic') # Mac의 경우는 AppleGothic, 윈도우의 경우는 Malgun Gothic, Nanum Gothic을 사용하면 됩니다 :) (폰트)
+mpl.rc('axes', unicode_minus=False) 
+
+from IPython.display import set_matplotlib_formats
+set_matplotlib_formats('retina')
+
+
+
+(2개 이상 나란히 시각화 하고 싶을 때 + 크기 조절)
+figure, (ax1, ax2) = plt.subplots(nrows = 2 , ncols = 1)
+
+figure.set_size_inches(15, 8)
+
+
+
+(일반적인 크기조절)
+plt.figure(figsize = (,))
