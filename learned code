@@ -31,3 +31,5 @@ plt.figure(figsize = (,))
 
 
 datetime.timedelta(0) (시간입력!!)
+dt.total_seconds() (초로 변환)
+cumsum() ()
