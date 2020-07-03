@@ -28,3 +28,6 @@ figure.set_size_inches(15, 8)
 
 (일반적인 크기조절)
 plt.figure(figsize = (,))
+
+
+datetime.timedelta(0) (시간입력!!)
