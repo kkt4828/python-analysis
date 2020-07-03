@@ -35,3 +35,8 @@ dt.total_seconds() (초로 변환)
 cumsum() (누적)
 
 plt.savefig('이름') 그림 저장!!
+
+for style in style_list:
+    shop[f"{style}"] = shop["style"].str.contains(style)
+    
+shop.head()     여러개의  한번에 만들기!!
