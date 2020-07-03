@@ -40,3 +40,5 @@ for style in style_list:
     shop[f"{style}"] = shop["style"].str.contains(style)
     
 shop.head()     여러개의  한번에 만들기!!
+
+size : row개수 
