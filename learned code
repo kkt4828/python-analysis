@@ -34,4 +34,4 @@ datetime.timedelta(0) (시간입력!!)
 dt.total_seconds() (초로 변환)
 cumsum() (누적)
 
-plt.savefig('이름') 그저장!!
+plt.savefig('이름') 그림 저장!!
