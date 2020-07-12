@@ -1,0 +1,16 @@
+import pandas as pd
+data.drop_duplicates(subset = ["a", "b"], keep = "first")
+
+## 중복제거 위의 경우 a, b 컬럼을 기준으로 같으면 중복된 것은 제거하고 컬럼의 제일 위에것만 남긴다
+
+
+date = pd.date_range("2017-03-01", "2018-09-01")
+## 2017/3/1 ~ 2018/9/1 까지 하루씩 증가시켜 날짜 데이터 생성
+pd.Datetimeindex(date)
+## date를 인덱스로 하는 array 생성
+
+
+import numpy as np
+
+np.intersect1d(a,b)
+## a,b의 중복되는 값들만 추출
