@@ -6,5 +6,5 @@ data analysis assignment
 4. learned codes
 
 
-## bike-sharing-practice : 학습 후 복습하여 전개한 
+## bike-sharing-practice : 학습 후 복습하여 전개한 + Random Forest & Light GBM 머신러닝 학습
 ## baseline-0.38101~ : 학습 당시 진행했던 파일
